@@ -1,0 +1,23 @@
+{
+  "name": "@upbiit/stylelint-config",
+  "version": "0.1.0",
+  "description": "Shareable Stylelint config for SCSS used by Upbiit",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "lint:style": "stylelint \"**/*.scss\" --syntax scss"
+  },
+  "peerDependencies": {
+    "stylelint": "^14 || ^15"
+  },
+  "devDependencies": {
+    "stylelint": "^15.0.0",
+    "stylelint-scss": "^4.0.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-prettier": "^9.0.0",
+    "stylelint-order": "^5.0.0",
+    "postcss-scss": "^5.0.0",
+    "stylelint-no-unsupported-browser-features": "^6.0.0",
+    "prettier": "^2.0.0"
+  }
+}
